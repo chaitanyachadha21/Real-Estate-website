@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JMD ASSOCIATES - Real Estate Solutions | BUY | SELL | RENT</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Theme Switcher -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>JMD ASSOCIATES</h1>
+                    <p class="tagline">As time passed the trust kept growing</p>
+                </div>
+                <div class="header-contact">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <span>9812257473</span>
+                            <span>8607002111</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>shantchadha@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Real Estate Solutions</h1>
+                <div class="services-banner">
+                    <span class="service-item">BUY</span>
+                    <span class="separator">|</span>
+                    <span class="service-item">SELL</span>
+                    <span class="separator">|</span>
+                    <span class="service-item">RENT</span>
+                </div>
+                <p class="hero-description">
+                    We deal in all kinds of properties in Sonipat, Kundli, and Kharkhoda. Your dream home or investment opportunity is just a call away.
+                </p>
+                <div class="hero-location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <button class="location-link" onclick="openGoogleMaps()">
+                        2042 Sec-7 Sonipat, Haryana
+                        <i class="fas fa-external-link-alt"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About JMD Associates</h2>
+                <p>Your trusted partner in real estate transactions</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Located in the heart of Sonipat, Haryana, JMD Associates has been serving the real estate needs of our community with dedication and expertise. We specialize in all types of property transactions in Sonipat, Kundli, and Kharkhoda areas, ensuring our clients get the best deals whether they're buying, selling, or renting.
+                    </p>
+                    <p class="additional-service">
+                        We also provide leasing services to brands.
+                    </p>
+                    <div class="location-info">
+                        <div class="location-card">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h4>Visit Our Office</h4>
+                            <button class="location-link" onclick="openGoogleMaps()">
+                                2042 Sec-7 Sonipat, Haryana
+                                <i class="fas fa-directions"></i>
+                            </button>
+                            <p class="location-note">Click to get directions on Google Maps</p>
+                        </div>
+                    </div>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-home"></i>
+                            <h4>Residential Properties</h4>
+                            <p>Houses, apartments, and plots for your dream home</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-building"></i>
+                            <h4>Commercial Properties</h4>
+                            <p>Offices, shops, and commercial spaces for your business</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-handshake"></i>
+                            <h4>Trusted Service</h4>
+                            <p>Professional guidance throughout your property journey</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Comprehensive real estate solutions for all your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>BUY</h3>
+                    <p>Find your perfect property with our extensive listings and expert guidance. We help you make informed decisions for your investment.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tag"></i>
+                    </div>
+                    <h3>SELL</h3>
+                    <p>Get the best value for your property with our marketing expertise and extensive network of potential buyers.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <h3>RENT</h3>
+                    <p>Whether you're looking to rent or lease out your property, we provide reliable rental solutions with verified tenants.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Areas Section -->
+    <section class="areas">
+        <div class="container">
+            <div class="section-header">
+                <h2>Areas We Serve</h2>
+                <p>Expert real estate services across key locations</p>
+            </div>
+            <div class="areas-grid">
+                <div class="area-card">
+                    <i class="fas fa-city"></i>
+                    <h3>Sonipat</h3>
+                    <p>Prime residential and commercial properties in the heart of Sonipat</p>
+                </div>
+                <div class="area-card">
+                    <i class="fas fa-building"></i>
+                    <h3>Kundli</h3>
+                    <p>Industrial and residential developments in the growing Kundli area</p>
+                </div>
+                <div class="area-card">
+                    <i class="fas fa-home"></i>
+                    <h3>Kharkhoda</h3>
+                    <p>Emerging residential projects and land opportunities in Kharkhoda</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Ready to start your real estate journey? Contact us today!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h4>Visit Us</h4>
+                        <button class="location-link" onclick="openGoogleMaps()">
+                            2042 Sec-7 Sonipat, Haryana
+                        </button>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h4>Call Us</h4>
+                        <p>9812257473<br>8607002111</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Email Us</h4>
+                        <p>shantchadha@gmail.com</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fab fa-whatsapp"></i>
+                        <h4>WhatsApp</h4>
+                        <p>8607002111</p>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Full Name *</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Enter your full name" required>
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address *</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email address" required>
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact" class="form-label">Contact Number *</label>
+                            <input type="tel" id="contact" name="contact" class="form-control" placeholder="Enter your 10-digit mobile number" required>
+                            <span class="error-message" id="contactError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="query" class="form-label">Your Property Query *</label>
+                            <textarea id="query" name="query" class="form-control" rows="4" placeholder="Tell us about your property requirements..." required></textarea>
+                            <span class="error-message" id="queryError"></span>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">
+                            <i class="fab fa-whatsapp"></i>
+                            Send Query via WhatsApp
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>JMD ASSOCIATES</h3>
+                    <p class="footer-slogan">As time passed the trust kept growing</p>
+                    <div class="footer-services">
+                        <span>BUY</span> | <span>SELL</span> | <span>RENT</span>
+                    </div>
+                    <p class="footer-additional">We also provide leasing services to brands.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Information</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 
+                        <button class="location-link" onclick="openGoogleMaps()">
+                            2042 Sec-7 Sonipat, Haryana
+                        </button>
+                    </p>
+                    <p><i class="fas fa-phone"></i> 9812257473, 8607002111</p>
+                    <p><i class="fas fa-envelope"></i> shantchadha@gmail.com</p>
+                    <p><i class="fab fa-whatsapp"></i> 8607002111</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Service Areas</h4>
+                    <p>• Sonipat</p>
+                    <p>• Kundli</p>
+                    <p>• Kharkhoda</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 JMD Associates. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
